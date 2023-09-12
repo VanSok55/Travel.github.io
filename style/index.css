@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bar1{
+    background-color: aquamarine;
+}
+.menu ul{
+    list-style-type: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.menu ul li{
+    /* float: left; */
+    display: inline-block;
+    /* text-align: center; */
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.left-menu{
+    background-color: steelblue;
+    margin-top: 10px;
+}
+.left-menu ul li{
+    list-style-type: none;
+}
+.left-menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+.left-menu ul li a:hover{
+    color: white;
+    /* opacity: 0.8; */
+}
+/* .slide-box{
+    width: 300px;
+    height: 300px;
+} */
+.slide-box{
+    margin-top: 10px;
+}
+.slide{
+    position: relative;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn-next{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 8px 15px;
+    background:rgba(0, 255, 255, 0.732);
+    border-radius: 5px;
+    cursor: pointer;
+    right: 1px;
+    /* font-size: 15px; */
+}
+.btn-back{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color:rgba(0, 255, 255, 0.708);
+    padding: 8px 15px;
+    left: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.font-plus{
+    float: right;
+}
+.image{
+    /* width: 300px; */
+    /* height: 300px; */
+    margin-top: 10px;
+    padding: 1px;
+    position: relative;
+}
+.slide-image{
+    position:relative;
+    
+}
+.sub-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 8px 13px;
+    border-radius: 5px;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.399);
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+}
+.title h1{
+    font-size: 30px;
+    color: red;
+}
+.title h2{
+    font-size: 20px;
+    color: cadetblue;
+}
+.Product-img{
+    height: 380px;
+    padding: 1px;
+    margin-top: 30px;
+}
+.Product-img .box{
+    height: 350px;
+}
+.Product-img .box .img-box{
+    height: 60%;
+    /* background-color: wheat; */
+    position: relative;
+
+}
+.Product-img .box .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* transition: 0.3; */
+}
+.Product-img .box .txt-box{
+    height: 40%;
+    width: 100%;
+    /* background-color: rgba(255, 228, 196, 0.544); */
+    text-align: center;
+}
+.Product-img .box .img-box:hover img{
+    transform: scale(1.1);
+    /* transition: 0.8s; */
+}
+.Product-img .box .status-box{
+    position: absolute;
+    font-size: 10px;
+    top: 3px;
+    left: 2px;
+    padding: 3px 5px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+.Product-img .box .img-box .code-box{
+    position: absolute;
+    color: white;
+    background-color: black;
+    bottom: 2px;
+    right: 2px;
+    padding: 3px 5px;
+    font-size: 10px;
+}
+.Product-img .box .txt-box p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.Product-img .box .txt-box ul li{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.Product-img .box .txt-box ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.Product-img .box .txt-box:hover ul li{
+    border: 1px solid crimson;
+
+}
+.Product-img .box .txt-box h1{
+    font-size: 13px;
+}
+.Product-img .box .txt-box .full{
+    color: red;
+    text-decoration-line: line-through;
+}
+.Product-img .box .txt-box .dis{
+    color: blue;
+    text-decoration-line: underline;
+}
+.add-card{
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    background-color:yellowgreen;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    /* opacity: 1; */
+}
+.Product-img .box .txt-box .add-card:hover{
+    background-color: rgba(220, 20, 60, 0.796);
+    color: blue;
+}
+.padding-card{
+    /* padding-left: 3px; */
+    padding-right: 7px;
+}
